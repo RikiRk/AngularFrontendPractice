@@ -1,0 +1,13 @@
+.example-spacer {
+  flex: auto;
+}
+.signin{
+    margin-left:3px;
+    color:white;
+}
+.signup{
+    color:white;
+}
+.home{
+  color:white;
+}

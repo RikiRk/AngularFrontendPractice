@@ -1,0 +1,13 @@
+
+<mat-card>
+    <form (ngSubmit)="onAddpost()" [formGroup]="todoForm">
+        <mat-form-field>
+            <input matInput type="text" placeholder="Title" formControlName="title" required >
+        </mat-form-field>
+        <mat-form-field>
+            <textarea rows="6" placeholder="Add your note" matInput formControlName="content" required > </textarea>
+        </mat-form-field>
+
+        <button mat-raised-button color='accent'type='submit'>Save Post</button>
+    </form>
+</mat-card>
